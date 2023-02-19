@@ -1,25 +1,27 @@
-﻿@font-face {
-    font-family: "NAZANIN";
-    src: url("sitefonts/bNazanin.ttf") format('truetype');
-}
-
+﻿
 html {
-    font-size: 25px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-size: 20px; /* px means "pixels": the base font size is now 10 pixels high */
     color: blue;
     background-color: #00539f;
-    direction:rtl;  
-    font-family: 'NAZANIN';
-    font-weight:bold;
+    direction: rtl;
 }
 
 table {
     text-align: right;
 }
+th {
+    border-bottom: 1px solid;
+    border-bottom-color: lightblue;
+    background-color: #00539f;
+    color:yellow;
+}
 th,td {
-    column-width: 150px;
+    column-width: 200px;
 }
 td {
-    background-color: lightskyblue;
+    background-color: white;
+    border-bottom: 1px solid;
+    border-bottom-color: #00539f;
 }
 
 INPUT {
@@ -39,8 +41,8 @@ li {
 }
 
 body {
-    width: 600px;
-    margin: auto;
+    width: 400px;
+    margin: 0 auto;
     background-color: #ff9500;
     padding: 20px 20px 20px 20px;
     border: 5px solid black;
