@@ -16,7 +16,7 @@ table {
     text-align: right;
 }
 th,td {
-    column-width: 100px;
+    column-width: 150px;
 }
 td {
     background-color: lightskyblue;
