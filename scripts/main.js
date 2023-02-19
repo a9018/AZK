@@ -73,8 +73,8 @@ function erase() {
 		solar_year += 1300;
 	}
 	moveover("  " + weekday[today.getDay() + 1] + "     " + today.getDate() + "/" + (today.getMonth() + 1) + "/" + today.getYear() + "     " + solar_year + "/" + solar_month + "/" + solar_day + "     " + today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds())
-	var myTable = document.getElementById('dateTimeTable');
-//	myTable.rows[0].cells[1].innerHTML = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+//	var myTable = document.getElementById('dateTimeTable');
+	myTable.rows[0].cells[1].innerHTML = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 //	document.form1.Time.value = "ساعـت :   " + today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds()
 	myTable.rows[1].cells[1].innerHTML = weekday[today.getDay() + 1] + "     " + solar_year + "/" + solar_month + "/" + solar_day;
 	var myYear = today.getYear();
