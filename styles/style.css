@@ -4,7 +4,7 @@
 }
 
 html {
-    font-size: 30px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-size: 25px; /* px means "pixels": the base font size is now 10 pixels high */
     color: blue;
     background-color: #00539f;
     direction:rtl;  
